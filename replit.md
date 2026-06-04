@@ -1,6 +1,6 @@
-# [Project name]
+# LAI — Laboratory of Alternative History Blog
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+An English-language blog publishing translated research from Russia's Laboratory of Alternative History (lah.ru), covering ancient civilizations, megalithic structures, lost technologies, and pre-historic mysteries.
 
 ## Run & Operate
 
