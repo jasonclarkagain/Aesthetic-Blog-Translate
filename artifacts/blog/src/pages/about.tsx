@@ -75,7 +75,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <h2>The Problem with the Orthodoxy</h2>
+          <h2 id="methodology">The Problem with the Orthodoxy</h2>
           <p>
             Conventional history teaches that the magnificent pyramids of Giza, the precision-fitted walls of Sacsayhuamán, and the colossal monoliths of Baalbek were constructed by civilizations possessing nothing more than copper chisels, stone pounders, and hemp ropes. 
           </p>
@@ -83,7 +83,7 @@ export default function AboutPage() {
             Our physical evidence tells a different story. The presence of high-speed circular saw marks on diorite, core drills in granite, and multi-ton blocks lifted to impossible heights point unequivocally to a forgotten technological epoch. We seek the architects of this lost era.
           </p>
 
-          <div className="mt-16 p-8 border border-primary/20 bg-primary/5 text-center">
+          <div id="join" className="mt-16 p-8 border border-primary/20 bg-primary/5 text-center">
             <h3 className="font-display text-2xl text-primary mb-4 m-0">Join the Investigation</h3>
             <p className="font-serif text-muted-foreground mb-0">
               Truth belongs to those who seek it. Explore the archives, analyze the data, and draw your own conclusions.

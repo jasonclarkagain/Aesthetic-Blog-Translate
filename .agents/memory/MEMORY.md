@@ -1,0 +1,1 @@
+- [Wouter query strings](wouter-query-strings.md) — use Wouter's search hook for query parameters; pathname state alone does not reliably expose the URL search string.

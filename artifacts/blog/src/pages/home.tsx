@@ -102,8 +102,8 @@ export default function Home() {
             </div>
 
             <div className="mt-12 flex justify-center">
-              <Button variant="outline" className="font-display tracking-widest uppercase rounded-none border-primary/30 text-primary hover:bg-primary/10">
-                View All Archives
+              <Button asChild variant="outline" className="font-display tracking-widest uppercase rounded-none border-primary/30 text-primary hover:bg-primary/10">
+                <Link href="/archive">View All Archives</Link>
               </Button>
             </div>
           </div>

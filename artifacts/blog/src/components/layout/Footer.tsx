@@ -26,8 +26,8 @@ export function Footer() {
             <h3 className="font-display text-lg mb-4 text-foreground">Institute</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><Link href="/about" className="hover:text-primary transition-colors">About LAI</Link></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Research Methodology</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Contact</a></li>
+              <li><Link href="/about#methodology" className="hover:text-primary transition-colors">Research Methodology</Link></li>
+              <li><Link href="/about#join" className="hover:text-primary transition-colors">Contact the Archive</Link></li>
             </ul>
           </div>
         </div>

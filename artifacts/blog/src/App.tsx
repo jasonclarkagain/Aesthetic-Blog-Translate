@@ -8,6 +8,8 @@ import Home from "@/pages/home";
 import PostPage from "@/pages/post";
 import CategoryPage from "@/pages/category";
 import AboutPage from "@/pages/about";
+import ArchivePage from "@/pages/archive";
+import SearchPage from "@/pages/search";
 
 const queryClient = new QueryClient();
 
@@ -18,6 +20,8 @@ function Router() {
         <Route path="/" component={Home} />
         <Route path="/posts/:id" component={PostPage} />
         <Route path="/category/:slug" component={CategoryPage} />
+        <Route path="/archive" component={ArchivePage} />
+        <Route path="/search" component={SearchPage} />
         <Route path="/about" component={AboutPage} />
         <Route component={NotFound} />
       </Switch>

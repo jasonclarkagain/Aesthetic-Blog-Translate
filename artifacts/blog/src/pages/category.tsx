@@ -1,5 +1,5 @@
 import { useParams } from "wouter";
-import { useListPosts, useListCategories } from "@workspace/api-client-react";
+import { useListPosts, useListCategories, getListPostsQueryKey } from "@workspace/api-client-react";
 import { PostCard } from "@/components/post-card";
 import { LoadingSpinner, ErrorState } from "@/components/loading-state";
 import { motion } from "framer-motion";
@@ -13,7 +13,7 @@ export default function CategoryPage() {
 
   const { data: posts, isLoading } = useListPosts(
     { category: slug },
-    { query: { enabled: !!slug } }
+    { query: { enabled: !!slug, queryKey: getListPostsQueryKey({ category: slug }) } }
   );
 
   if (isLoading) return <LoadingSpinner />;
